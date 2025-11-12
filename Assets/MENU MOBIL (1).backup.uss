@@ -1,0 +1,81 @@
+:root {
+    caret-color: rgb(255, 255, 255);
+}
+
+.input-container {
+    position: relative;
+    width: 700px;
+    height: 150px;
+}
+
+.input-bg {
+    background-image: url("project://database/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Alternative_Colors_3.png?fileID=-3921529898341959604&guid=0bfe7a2d4a8de314bbf0f670d78a6cd2&type=3#Steampunk_UI_Alternative_Colors_3_5");
+    background-scale-mode: scale-to-fit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.input-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 60px;
+    color: rgb(240, 220, 120);
+    -unity-text-align: middle-center;
+}
+
+#SaisieMail > #unity-text-input {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    -unity-cursor-color: rgb(255, 255, 255);
+    -unity-selection-color: rgba(255, 255, 255, 0.25);
+}
+
+#SaisiePass > #unity-text-input {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    -unity-cursor-color: rgb(255, 255, 255);
+    -unity-selection-color: rgba(255, 255, 255, 0.25);
+}
+
+:root {
+    caret-color: rgb(255, 255, 255);
+}
+
+Button {
+    background-image: url('project://database/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Button_Normal.png');
+    background-scale-mode: scale-to-fit;
+    color: rgb(230, 210, 120);
+    font-size: 60px;
+    border-width: 0;
+    -unity-text-align: middle-center;
+    transition: background-image 0.1s ease, scale 0.1s ease;
+}
+
+Button:hover {
+    background-image: url('project://database/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Button_Hover.png');
+    scale: 1.05;
+}
+
+Button:active {
+    background-image: url('project://database/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Button_Pressed.png');
+    scale: 0.95;
+}
+
+Button:focus {
+    outline-color: rgb(255, 200, 50);
+    outline-width: 3px;
+}
+
+#Mail {
+    letter-spacing: 16px;
+}

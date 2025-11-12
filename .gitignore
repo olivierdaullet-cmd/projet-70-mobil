@@ -1,0 +1,26 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Crash and error logs
+*.pidb
+*.booproj
+*.svd
+*.user
+*.suo
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+
+# Rider / VSCode
+.idea/
+.vscode/
+
+# Autres fichiers Unity auto-générés
+*.meta
